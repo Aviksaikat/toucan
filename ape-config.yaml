@@ -1,0 +1,13 @@
+name: hf
+
+ethereum:
+  mainnet:
+    default_provider: alchemy
+  mainnet_fork:
+    default_provider: foundry
+
+foundry:
+  fork:
+    ethereum:
+      mainnet_fork:
+        upstream_provider: alchemy
