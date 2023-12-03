@@ -1,5 +1,8 @@
 name: hf
-
+plugins:
+    - name: infura
+    - name: alchemy
+    - name: solidity
 ethereum:
   mainnet:
     default_provider: alchemy
